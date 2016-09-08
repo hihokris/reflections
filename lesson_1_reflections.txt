@@ -1,0 +1,28 @@
+How did veiwing a "diff" command between two versions of the file help to see the bug we introduced?
+
+Well, it highlighted, with +'s and  -'s the lines which were different from each other. This then caused us to focus on the lines that were likely to have errors because their introduction meant the code no-longer worked.Thing is code would need to have fantastic and consistent structure to ensure that you only change a few lines at a time. Plenty of spaces between code blocks. Alternatively, use functions to ensure the code lines are alright.
+
+How could having easy acces to the entire history of a file make you an efficient porgrammer in the long term?
+
+Well, having access to a lot of code is important, as to be able to reuse parts if nessisary. Also tools like diff only work if you have previous versions of the code.
+
+What are the pros and cons of manual commits vs automatic versions?
+
+Pros of automatic control means that new versions are created even if the author forgets. Cons are they will not always occur logical intervals, like the code can be used.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Well, some changes only make sense if you veiw what was done over multiple files, so a logical progression with a few changes in a number of files. This is important for programming, where a save needs to make sense, but for google docs, there is no reason not to save them individually because it is automatic.
+
+How can you use the commands git log and git diff to veiw the history of files?
+
+With git log you can look up all the id's and the changes made to each file. With git diff, you can look at the changes made to each of the files between each commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you know that if you make an error, you can simply go back to when there was not an error. That way, you are safe from the mistakes you may make.
+
+What are you going to use git for?
+
+I hope to use to eventually produce android apps or other software for projects.
+
