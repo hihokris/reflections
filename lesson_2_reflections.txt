@@ -6,3 +6,18 @@ How is the staging area different from the working directory and the repository?
 
 The staging area allows us to see what we are about to commit, and it gives more control over what ends up being committed.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Because you get greater control over what changes end up getting saved. can also use git diff and git diff --staged to better grasp what changes are getting made.
+
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+
+When you want to make an experimental change, or just another version of the game, but would like a neat project to come back to.
+
+How do the diagreams help you visualize the branch structure?
+
+You can see where each lineage comes from, and observe which commits are reachable by which branch.
+
+What is the result of merging two branches stogether? Why do we represent it in the diagram the way we do?
+
+What happens is that you get both branches combine, which adds lines which have either been created by either party or any lines which appear in the parent branch, and not in any of the updated versions. We represent it as coming from both coins and the master and having versions relating back to those branches, because it has that history.
