@@ -1,3 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-This could be when you want to collaborate on a project with others, would like to work on a project potentially using a different machine or want to keep a backup version of the project.
+This could be when you want to collaborate on a project with others, would like to work on a project potentially using a different machine or want to keep a backup version of the project, in case your computer goes kaput.
+
+Why might you want to always pull changes manually rather than having git automatically stay up-to-date with your remote repository?
+
+You have full control on what happens with the local files, and whether you are happy with the changes made on the external file.
+
+Describe the differences between forsk clones and branches. When would you use one instead of another?
+
+A branch is when you want to start a new section of the same project, like adding new features, or trying something experimental. A clone is where you make a copy of a project and move it to your computer, and this is to just create another copy of the project on your machine so you can use it. A fork is when you take someone elses project and make a link to it via github, and thats if you want to extend someone elses project using github.
+
